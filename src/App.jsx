@@ -61,10 +61,10 @@ function App() {
         value={{ todos, addTodo, updateTodo, deleteTodo, toggleChekcbox }}
       >
         <div className='w-full bg-[#F9F6EE] dark:bg-[#172842] min-h-screen py-8'>
-          <ThemeBtn />
-          <div className='w-full max-w-2xl mx-auto shadow-lg rounded-lg px-4 py-3 text-white'>
-            <h1 className='text-2xl font-bold text-center mb-8 mt-2 text-gray-900 dark:text-white'>
+          <div className='w-full max-w-2xl mx-auto shadow-lg rounded-lg py-6 px-8 text-white bg-gray-200 dark:bg-[#233b5e]'>
+            <h1 className='text-2xl font-bold text-center mb-8 mt-2 text-gray-900 dark:text-white flex item-center justify-between'>
               Manage Your Todos
+              <ThemeBtn />
             </h1>
             <div className='mb-4'>
               <TodoForm />
